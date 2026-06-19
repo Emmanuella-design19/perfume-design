@@ -87,3 +87,12 @@ button {
     border-radius: 8px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    img {
+        width: 100%;
+    }   
+}
