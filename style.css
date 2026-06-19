@@ -93,9 +93,19 @@ button {
     }
     img {
         width: 100%;
+        height: 250px;
+        object-fit: cover;
     } 
     .card {
         flex-direction: column;
-        width: 90%;
-    }  
+        max-width: 350px;
+        height: auto;
+    }
+    .content {
+        padding: 20px;
+    }
+    body {
+        padding: 20px;
+        display: block;
+    }
 }
