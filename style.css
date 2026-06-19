@@ -21,8 +21,7 @@ img {
 }
 
 .card {
-    width: 600px;
-    height: 500px;
+    max-width: 600px;
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -94,5 +93,9 @@ button {
     }
     img {
         width: 100%;
-    }   
+    } 
+    .card {
+        flex-direction: column;
+        width: 90%;
+    }  
 }
